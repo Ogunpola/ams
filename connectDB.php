@@ -1,9 +1,9 @@
 <?php
 /* Database connection settings */
-	$servername = "localhost";
-    $username = "root";		//put your phpmyadmin username.(default is "root")
-    $password = "";			//if your phpmyadmin has a password put it here.(default is "root")
-    $dbname = "rfidattendance";
+    $servername = "remotemysql.com";
+    $username = "X4CGbqy7a";		//put your phpmyadmin username.(default is "root")
+    $password = "v80CsbsRTm";			//if your phpmyadmin has a password put it here.(default is "root")
+    $dbname = "EX4CGbqy7a";
     
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 	
